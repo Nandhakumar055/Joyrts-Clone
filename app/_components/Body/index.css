@@ -1,0 +1,316 @@
+
+/* BODY SECTION */
+
+.body-section-container{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://res.cloudinary.com/dhoeemazz/image/upload/v1727814285/about-bg_wp7yjc.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+.body-main-container {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://www.joyrts.com/assets/images/main-bnr-bg4.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    min-height: 90vh ;
+}
+@media screen and (min-width:768px) {
+    .body-container{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .body-container{
+        width: 90%;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width:1200px) {
+    .body-container{
+        width: 83%;
+    }
+}
+
+
+.greating-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .greating-container{
+        align-items: flex-start;
+        max-width: 450px;
+    }
+}
+
+
+.greating-container h3{
+    color: rgb(0, 87, 185);
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 550;
+}
+@media screen and (min-width:992px) {
+    .greating-container h3{
+        text-align: start;
+    }
+}
+
+.greating-container h1 {
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    line-height: 75px;
+}
+@media screen and (min-width:992px) {
+    .greating-container h1{
+        text-align: start;
+        font-weight: 900;
+    }
+}
+
+.span1 {
+    color: rgb(0, 140, 255);
+    font-family: arial;
+}
+.span2 {
+    color: red;
+}
+
+.greating-container p {
+    margin-top: 20px;
+    line-height: 30px;
+    font-size: 15px;
+}
+
+.carousel-image-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 500px;
+    padding-top: 25px;
+}
+@media screen and (min-width:992px) {
+    .carousel-image-container{
+        align-items: flex-end;
+        padding-top: 0px;
+    }
+}
+
+.carousel-image-container img {
+    width: 100%;
+}
+
+.about-section-container{
+    height: 100vh;
+}
+
+
+/* ABOUT SECTION*/
+
+
+.about-section-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 20px;
+    height: 100%;
+    padding-top: 90px;
+}
+@media screen and (min-width:768px) {
+    .about-section-container{
+        padding-top: 120px;
+    }
+}
+
+.about-main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+@media screen and (min-width:768px) {
+    .about-main-container{
+        width: 90%;
+    }
+}
+@media screen and (min-width: 992px) {
+    .about-main-container{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 83%;
+    }
+}
+
+.about-image{
+    max-width: 400px;
+    width: 100%;
+}
+@media screen and (min-width: 992px) {
+    .about-image{
+        max-width: 500px;
+        width: 50%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    .about-image{
+        max-width: 500px;
+    }
+}
+
+.about-container{
+    padding-top: 20px;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .about-container{
+        padding-left: 20px;
+        text-align: start;
+        width: 50%;
+        
+    }
+}
+@media screen and (min-width:1200px) {
+    .about-container{
+        padding-left: 40px;
+        flex-grow: 1;
+    }
+}
+
+
+.about-container h4 {
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(0, 89, 161);
+    margin: 20px 0px;
+}
+@media screen and (min-width:992px) {
+    .about-container h4{
+        font-size: 18px;
+        margin: 0;
+    }
+}
+
+
+.about-container h1 {
+    font-size: 22px;
+    font-weight: 900;
+    color: red;
+}
+@media screen and (min-width:992px) {
+    .about-container h1{
+        font-size: 50px;
+    }
+}
+
+
+
+.about-container p{
+    font-size: 15px;
+    color: rgb(66, 66, 66);
+    padding: 10px 0px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: start;
+}
+
+/* OUR - SERVICES SECTION */
+
+.our-services-section-container{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://www.joyrts.com/assets/images/white_abstract_background_with_texture.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 90px;
+}
+@media screen and (min-width:768px) {
+    .our-services-section-container{
+        padding-top: 120px;
+    }
+}
+
+.our-services-section-container h1 {
+    font-size: 30px;
+    font-weight: 900;
+    color: red;
+    text-align: center;
+}
+
+.our-services-section-container p {
+    font-size: 15px;
+    text-align: center;
+    line-height: 25px;
+    margin: 10px 0px;
+    color: rgb(66, 66, 66)
+}
+
+.service-main-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media screen and (min-width:768px) {
+    .service-main-conatiner{
+        width: 90%;
+    }
+}
+@media screen and (min-width:992px) {
+    .service-main-conatiner{
+        width: 83%;
+    }
+}
+
+.service-items-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px;
+    width: 100%;
+}
+@media screen and (min-width:992px) {
+    .service-items-conatiner{
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: stretch;
+        justify-content: center;
+        gap: 25px;
+    }
+}
